@@ -1,0 +1,31 @@
+{
+  "name": "mountebank-http",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Brandon Byars <brandon.byars@gmail.com>",
+  "description": "HTTP example implementation for mountebank (www.mbtest.org)",
+  "homepage": "http://www.mbtest.org",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbyars/mountebank-http.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bbyars/mountebank/issues",
+    "email": "brandon.byars@gmail.com"
+  },
+  "main": "./src/index.js",
+  "keywords": [
+    "mountebank",
+    "protocol",
+    "service virtualization",
+    "http",
+    "https"
+  ],
+  "dependencies": {
+    "q": "1.5.1"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
